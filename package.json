@@ -1,0 +1,27 @@
+{
+  "name": "yet-another-timer",
+  "version": "0.0.1",
+  "description": "Simple interval timer for node.js",
+  "main": "dist/Timer.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MichielvdVelde/yet-another-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "hrtime",
+    "precision",
+    "measure"
+  ],
+  "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichielvdVelde/yet-another-timer/issues"
+  },
+  "homepage": "https://github.com/MichielvdVelde/yet-another-timer#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1"
+  }
+}
