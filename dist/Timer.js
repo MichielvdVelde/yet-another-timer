@@ -24,8 +24,8 @@ var Timer = exports.Timer = (function () {
 		value: function start() {
 			if (this._ran) throw new Error('timer already ran. use reset() first');
 			if (this._running) throw new Error('timer currently running');
-			this._hrtime = process.hrtime();
 			this._running = true;
+			this._hrtime = process.hrtime();
 		}
 
 		/**
@@ -40,6 +40,7 @@ var Timer = exports.Timer = (function () {
 			this._runtime = this._hrtime[0] * 1000 + this._hrtime[1] / 1000000;
 			this._running = false;
 			this._ran = true;
+			return this._runtime;
 		}
 
 		/**

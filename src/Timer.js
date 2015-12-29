@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * yet-another-timer
+*/
 export class Timer {
 	constructor() {
 		this.reset();
