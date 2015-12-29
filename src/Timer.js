@@ -11,8 +11,8 @@ export class Timer {
 	start() {
 		if(this._ran) throw new Error('timer already ran. use reset() first');
 		if(this._running) throw new Error('timer currently running');
-		this._hrtime = process.hrtime();
 		this._running = true;
+		this._hrtime = process.hrtime();
 	}
 
 	/**
