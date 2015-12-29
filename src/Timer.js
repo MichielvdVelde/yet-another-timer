@@ -24,6 +24,7 @@ export class Timer {
 		this._runtime = (this._hrtime[0] * 1000) + (this._hrtime[1] / 1000000);
 		this._running = false;
 		this._ran = true;
+		return this._runtime;
 	}
 
 	/**
