@@ -1,6 +1,6 @@
 {
   "name": "yet-another-timer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple interval timer for node.js",
   "main": "dist/Timer.js",
   "repository": {
