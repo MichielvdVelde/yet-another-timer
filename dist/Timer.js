@@ -60,6 +60,18 @@ var Timer = exports.Timer = (function () {
 		}
 
 		/**
+   * Peek the current run time without stopping the timer
+  */
+
+	}, {
+		key: 'peek',
+		value: function peek() {
+			if (!this._running) throw new Error('timer not running');
+			var hrtime = process.hrtime(this._hrtime);
+			return hrtime[0] * 1000 + hrtime[1] / 1000000;
+		}
+
+		/**
    * Return true if the timer has ran and finished
   */
 

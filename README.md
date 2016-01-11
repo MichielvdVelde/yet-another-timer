@@ -45,14 +45,21 @@ as you're used to.
 
 # Changelog
 
+<<<<<<< HEAD
+* 0.0.2 - 11 January 2016
+ * Add `peek()` (documentation to follow)
+ * Move `running` flag to before `hrtime` start
+ * Update license year
+=======
 * 0.0.2 - 29 December 2015
   * `stop()` now returns the execution time directly as well
+>>>>>>> 4e85704aa117b35df20b8919339d381647865fd6
 * 0.0.1 - 28 December 2015
   * First commit
   * Published on npm
 
 # License
 
-Copyright 2015 Michiel van der Velde.
+Copyright 2016 Michiel van der Velde.
 
 This software is licensed under the [MIT License](LICENSE)
